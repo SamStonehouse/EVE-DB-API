@@ -1,0 +1,14 @@
+{
+	"name": "evedbapi",
+	"description": "An api which sits ontop of the Eve Database to serve get queries.",
+	"version": "0.1.0",
+    "private": true,
+    "dependencies": {
+		"express": "~4.0.*",
+		"mysql": "~2.1.*",
+		"morgan": "~1.0.*",
+		"body-parser": "~1.0.*",
+		"method-override": "~1.0.*"
+	},
+	"main": "lib/main.js"
+}
