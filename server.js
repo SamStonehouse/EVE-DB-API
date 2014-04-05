@@ -5,8 +5,8 @@ var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
 var app            = express();
 
-var dbDriver = require('./lib/mysql/mysql-driver.js');
-var eveApi = require('./lib/eveapi.js')(dbDriver);
+var db = require('./lib/mysql/mysql-driver.js');
+var eveApi = require('./lib/eveapi.js')(db);
 
 var port = 8080;
 
