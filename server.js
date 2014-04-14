@@ -1,7 +1,7 @@
 // server.js (Express 4.0)
 var express        = require('express');
 var morgan         = require('morgan');
-var db             = require('./lib/mysql/mysql-driver.js');
+var db             = require('./lib/mysql/mysql-controller.js');
 var eveApi         = require('./lib/eveapi.js')(db);
 
 var app            = express();
