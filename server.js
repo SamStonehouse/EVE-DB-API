@@ -1,7 +1,7 @@
 // server.js (Express 4.0)
 var express        = require('express');
 var morgan         = require('morgan');
-var cache          = require('./lib/db-cache/cache-controller');
+var cache          = require('./lib/cache/cache-controller');
 var db             = require('./lib/database/db-controller')(cache);
 var eveApi         = require('./lib/eveapi.js')(db);
 
