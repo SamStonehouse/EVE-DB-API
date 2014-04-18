@@ -25,4 +25,4 @@ build/Release
 node_modules
 
 # Any settings files not to be distributed
-lib/*-settings.js
+*-settings.json
