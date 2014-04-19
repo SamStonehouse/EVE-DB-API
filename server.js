@@ -3,7 +3,7 @@ var express        = require('express');
 var morgan         = require('morgan');
 var cache          = require('./lib/cache/cache-controller');
 var db             = require('./lib/database/db-controller')(cache);
-var api            = require('./lib/eveapi.js')(db);
+var api            = require('./lib/eveapi')(db);
 
 var app            = express();
 
