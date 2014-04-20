@@ -26,3 +26,6 @@ node_modules
 
 # Any settings files not to be distributed
 *-settings.json
+
+#Stupid Mac files
+.DS_Store
