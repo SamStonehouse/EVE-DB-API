@@ -8,7 +8,8 @@
 		"mysql": "~2.1.*",
 		"morgan": "~1.0.*",
 		"body-parser": "~1.0.*",
-		"method-override": "~1.0.*"
+		"method-override": "~1.0.*",
+		"memcache": "~0.3.*"
 	},
 	"main": "lib/main.js"
 }
