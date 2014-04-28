@@ -11,5 +11,5 @@
 		"method-override": "~1.0.*",
 		"memcache": "~0.3.*"
 	},
-	"main": "lib/main.js"
+	"main": "server.js"
 }
