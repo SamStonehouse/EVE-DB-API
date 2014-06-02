@@ -18,8 +18,7 @@ Settings are database name, username, password and host
 __API Settings__  
 `lib/api/api-settings.js`
 
-Settings are the routes you wish to use, for example the `api` route specifies the base
-to which queries will be answered. All can be empty.
+Settings are the routes you wish to use, for example the `api` route specifies the base route.
 
 __Other Settings__  
 
@@ -46,5 +45,12 @@ Fields can be specified for each different query through the get parameter `fiel
 
 `/api/inv/types?fields=3` - returns an array of types with typeIDs and typeNames
 
+##JSONP
+
+The callback parameter can be added to add jsonp functionality
+
+`/api/inv/types?callback=functionName`
+
+and the response will be wrapped in the function functionName(return {});
 
 Note: I am not related to CCP Games and all of their material is still subject to their licensing terms.
