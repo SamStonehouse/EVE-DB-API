@@ -4,10 +4,14 @@ var morgan         = require('morgan');
 var cache          = require('./lib/cache/cache-controller');
 var db             = require('./lib/database/db-controller')(cache);
 var api            = require('./lib/api/api-controller');
+var program        = require('commander');
 
 var app            = express();
 
-var port = 8080;
+program
+  .version('0.0.1')
+  .option('-p, --port <n>', 'Listen port [8080]', 8080)
+  .parse(process.argv);
 
 //Setup logger
 app.use(morgan('dev'));
@@ -20,7 +24,6 @@ cache.connect();
 api(db, app);
 
 //Listen on required port
-app.listen(port);
+app.listen(program.port);
 
-
-console.log('Listening on port ' + port);
+console.log('Listening on port ' + program.port);
