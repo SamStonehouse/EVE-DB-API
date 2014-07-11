@@ -1,7 +1,7 @@
 {
 	"name": "evedbapi",
 	"description": "An API which sits ontop of the Eve Database to serve get queries.",
-	"version": "0.2.1",
+	"version": "0.2.2",
     "private": true,
     "dependencies": {
 		"express": "~4.0.*",
