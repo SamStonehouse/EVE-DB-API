@@ -159,6 +159,10 @@ The listen port is currently defined in server.js, I'll likely bring this out to
 
 `/api/map/regions/:regionID`
 
+`/api/map/jumps`
+
+`/api/map/jumps/:solarSystemID`
+
 
 __TODO__
 

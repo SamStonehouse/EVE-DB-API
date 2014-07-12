@@ -10,7 +10,7 @@ var app            = express();
 
 program
   .version('0.2.2')
-  .option('-p, --port <n>', 'Listen port [8080]', 8080)
+  .option('-p, --port <n>', 'Listen port [8080]')
   .parse(process.argv);
 
 //Setup logger
