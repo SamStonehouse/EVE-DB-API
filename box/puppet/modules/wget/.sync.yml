@@ -1,0 +1,10 @@
+Rakefile:
+  strict_variables: false
+.gitignore:
+  paths:
+  - Puppetfile.lock
+.travis.yml:
+  # these versions of puppet just can't run the tests
+  exclude_puppet:
+  - 3.3.0
+  - 3.2.0

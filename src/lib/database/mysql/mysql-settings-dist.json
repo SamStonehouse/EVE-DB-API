@@ -1,6 +1,6 @@
 {
 	"host": "localhost",
 	"database": "evedb",
-	"username": "evedbuser",
+	"username": "eveuser",
 	"password": ""
 }
