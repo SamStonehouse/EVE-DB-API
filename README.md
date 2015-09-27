@@ -1,3 +1,5 @@
+# Now Depricated: See [Squeaky](https://github.com/SamStonehouse/Squeaky)
+
 #EVE-DB-API
 
 Eve-db-api is a node.js application built to serve data from the Eve Online database through a
